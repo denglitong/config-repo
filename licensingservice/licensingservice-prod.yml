@@ -9,7 +9,9 @@ spring.datasource.username: "postgres_prod"
 spring.datasource.password: "{cipher}a710cf0285fd529d89c01e200f24b889255b2155bafa751ca48a846be404cd3a"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
+# 关闭让hibernate自动生成实体类
 spring.jpa.hibernate.ddl-auto: none
+# 指定总是执行初始化脚本
 spring.datasource.initialization-mode: always
 spring.datasource.data: classpath:schema.sql
 redis.server: "redis"
