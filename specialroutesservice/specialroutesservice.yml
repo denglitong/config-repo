@@ -13,4 +13,3 @@ spring.jpa.hibernate.ddl-auto: none
 # 指定总是执行初始化脚本
 spring.datasource.initialization-mode: always
 spring.datasource.data: classpath:schema.sql
-signing.key: "345345fsdfsf5345"
